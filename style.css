@@ -34,6 +34,7 @@ nav>a:hover{
     background-color: rgb(7, 214, 145);
     transition-duration: 0.5s;
 }
+nav{text-align: center;}
 /*cabeçalho terminado*/
 @font-face {
     font-family: "droid";
