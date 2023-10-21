@@ -1,0 +1,127 @@
+@charset "UTF-8";
+body{margin: 0%;
+    background-color: rgb(176, 244, 221);
+}
+header{
+    background-image:linear-gradient(rgb(151, 237, 183),rgb(79, 191, 130),rgb(17, 91, 48));
+    margin: 0%;
+    padding: 10px;
+}
+
+header>h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.544);
+}
+header >p.cabeça
+{
+ color: white;
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+}
+nav>a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size:17px ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px 0px 0px;
+}
+nav>a:hover{
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.425);
+    border-radius: 2px;
+    background-color: rgb(7, 214, 145);
+    transition-duration: 0.5s;
+}
+/*cabeçalho terminado*/
+@font-face {
+    font-family: "droid";
+    src: url(fontes/idroid.otf);
+}
+h1.titulo{
+    font-family: 'droid';
+    color: rgb(57, 94, 20);
+    background-image:linear-gradient( 45deg, rgb(171, 239, 169),rgb(221, 227, 223),rgb(171, 239, 169));
+        font-size: 25px;
+      
+    }
+h2.surge{ font-family: 'droid';
+    color: rgb(57, 94, 20);
+    background-image:linear-gradient( 45deg, rgb(171, 239, 169),rgb(243, 243, 243));}
+
+   
+section.primeira > h2{
+    font-family: 'droid';
+    color: rgb(57, 94, 20);
+    background-image:linear-gradient( 45deg, rgb(171, 239, 169),rgb(243, 243, 243));
+}
+main{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.649);
+    max-width: 800px;
+    min-width: 320px;
+    margin:auto;
+    background-color: rgb(234, 236, 238);
+    padding: 5px;
+}
+main img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+main img.maodada{
+      max-width:350px;
+    margin: auto;
+    display: block;
+}
+main>p,section.primeira,section,aside{
+    text-indent: 20px;
+}/*espaçamento indent*/
+h3{background-color:rgb(33, 206, 105);
+color: white;
+border-radius: 3px 3px 0px 0px;
+margin:0px}
+
+aside>p.aprenda,p.aprenda2,ul.colunas{
+    background-color: rgb(159, 243, 211);
+    margin: 0px;
+    padding: 8px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.347);
+}
+
+.colunas {
+    column-count: 2;
+    list-style-position: inside;
+}
+.aprenda2{
+    border-radius: 0px 0px 3px 3px;
+}
+p.acese>a{
+    text-decoration: none;
+    color: rgb(59, 116, 2);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+footer>p{
+    background-color: rgb(6, 77, 7);
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+section.video{
+    background-color: rgb(57, 94, 20);
+    margin-bottom: 20px;
+    margin: 0px -6px;
+    padding-bottom: 57.5%;
+    position: relative;
+}
+section.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+
+}
